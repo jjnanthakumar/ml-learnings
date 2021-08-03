@@ -1,5 +1,6 @@
-import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
+
 def gradient_descent(x,y):
     m_cur = b_cur = 0
     iterations = 1000
@@ -17,6 +18,6 @@ def gradient_descent(x,y):
         print(f'm {m_cur}, b {b_cur}, iteration {i}, cost {cost}')
     plt.show()
 
-x = np.arange(1,6)
-y = np.arange(5,14,2)
-gradient_descent(x,y)
+
+df = pd.read_csv('Data/test_scores.csv')
+print(df.head())
