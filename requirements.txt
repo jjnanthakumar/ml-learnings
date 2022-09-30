@@ -21,7 +21,7 @@ idna==2.10
 isodate==0.6.0
 jeepney==0.6.0
 jmespath==0.10.0
-joblib==1.0.1
+joblib==1.2.0
 jsonpickle==2.0.0
 msrest==0.6.21
 msrestazure==0.6.4
